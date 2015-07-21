@@ -11,7 +11,7 @@ DEFAULT_PLUGINS = [
     'elaphe.postnet', 'elaphe.royalmail', 'elaphe.auspost', 'elaphe.kix',
     'elaphe.japanpost', 'elaphe.msi', 'elaphe.plessey', 'elaphe.raw',
     'elaphe.symbol', 'elaphe.pdf417', 'elaphe.datamatrix', 'elaphe.qrcode',
-    'elaphe.maxicode', 'elaphe.azteccode']
+    'elaphe.maxicode', 'elaphe.azteccode', 'elaphe.gs1datamatrix']
 
 if __name__=="__main__":
     DEFAULT_PLUGINS = [s.replace('elaphe.', '') for s in DEFAULT_PLUGINS]
